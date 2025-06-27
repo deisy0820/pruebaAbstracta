@@ -4,14 +4,11 @@ trigger:
 pool:
   vmImage: 'windows-latest'
 
-variables:
-  JAVA_HOME: 'C:\Program Files\Java\jdk1.8.0_202'
-
 steps:
   - task: JavaToolInstaller@0
     inputs:
       versionSpec: '8'
-      jdkArchitecture: 'x64'
+      jdkArchitectureOption: 'x64'
 
   - task: Gradle@2
     inputs:
