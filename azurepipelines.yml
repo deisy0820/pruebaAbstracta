@@ -10,7 +10,7 @@ variables:
 steps:
   - task: JavaToolInstaller@0
     inputs:
-      versionSpec: '17'
+      versionSpec: '8'
       jdkArchitecture: 'x64'
 
   - task: Gradle@2
