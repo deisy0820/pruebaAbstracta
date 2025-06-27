@@ -9,6 +9,7 @@ steps:
     inputs:
       versionSpec: '8'
       jdkArchitectureOption: 'x64'
+      jdkSourceOption: 'PreInstalled'
 
   - task: Gradle@2
     inputs:
