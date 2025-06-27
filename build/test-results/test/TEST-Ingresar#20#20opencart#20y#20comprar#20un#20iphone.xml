@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Ingresar  opencart y comprar un iphone" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-06-27T13:43:12" hostname="WINDOWS" time="34.468">
+  <properties/>
+  <testcase name="El usuario agregra un producto al carrito" classname="Ingresar  opencart y comprar un iphone" time="19.094"/>
+  <testcase name="El usuario elimina el producto del carrito" classname="Ingresar  opencart y comprar un iphone" time="15.374"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 137.0.7151.55 (254bc711794d7ad269495f3d419a209935b78cad-refs/branch-heads/7151@{#1757}) on port 19211
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 19211.
+[1751031797.917][WARNING]: This version of ChromeDriver has not been tested with Chrome version 138.
+jun 27, 2025 8:43:18 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTENCIA: Unable to find CDP implementation matching 138
+jun 27, 2025 8:43:18 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+ADVERTENCIA: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.3` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Starting ChromeDriver 137.0.7151.55 (254bc711794d7ad269495f3d419a209935b78cad-refs/branch-heads/7151@{#1757}) on port 6647
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 6647.
+[1751031813.205][WARNING]: This version of ChromeDriver has not been tested with Chrome version 138.
+jun 27, 2025 8:43:33 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTENCIA: Unable to find CDP implementation matching 138
+jun 27, 2025 8:43:33 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+ADVERTENCIA: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.3` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+</testsuite>

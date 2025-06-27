@@ -1,0 +1,25 @@
+trigger:
+  - main  # o la rama que desees
+
+pool:
+  vmImage: 'windows-latest'
+
+variables:
+  JAVA_HOME: 'C:\Program Files\Java\jdk1.8.0_202'  # ajusta si usas otro JDK
+
+steps:
+  - task: UseJava@1
+    inputs:
+      versionSpec: '17'
+      jdkArchitecture: 'x64'
+
+  - task: Gradle@2
+    inputs:
+      gradleWrapperFile: 'gradlew'
+      gradleOptions: '-Xmx3072m'
+      tasks: 'clean test aggregate'
+
+  - task: PublishBuildArtifacts@1
+    inputs:
+      PathtoPublish: 'target/site/serenity'
+      ArtifactName: 'SerenityReports'
